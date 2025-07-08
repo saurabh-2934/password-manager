@@ -1,0 +1,412 @@
+* {
+  font-family: 'Roboto';
+}
+.main-container {
+  background-color: #9ba9eb;
+  min-height: 100vh;
+  padding: 10px;
+}
+.app-logo {
+  width: 100px;
+}
+
+.cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5763a5;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.heading {
+  color: #ffffff;
+  font-size: 10px;
+  align-self: flex-start;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  background-color: #f8fafc;
+  border-radius: 5px;
+  height: 30px;
+  width: 120px;
+  margin-bottom: 10px;
+}
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #454f84;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+.input-logo {
+  height: 12px;
+  width: 12px;
+  margin-left: 8px;
+}
+.input {
+  border-width: 0px;
+  background-color: #f8fafc;
+  border-left: 1px solid #b6c3ca;
+  margin-left: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 30px;
+  width: 100%;
+  font-size: 10px;
+  outline: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.btn {
+  align-self: flex-end;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-width: 0px;
+  width: 50px;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.password-manager {
+  height: 150px;
+  width: 80px;
+}
+.password-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #f8fafc;
+  margin-bottom: 10px;
+}
+.nav-heading {
+  font-size: 10px;
+  color: #ffffff;
+  margin-right: 5px;
+}
+.input-search {
+  display: flex;
+  align-items: center;
+  background-color: #f8fafc;
+  border-radius: 5px;
+  height: 22px;
+  width: 120px;
+  margin-bottom: 10px;
+}
+.count {
+  color: #ffffff;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 10px;
+  border-color: #f8fafc;
+  border-radius: 5px;
+  padding: 2px;
+  width: 20px;
+  height: 17px;
+}
+.input-for-search {
+  border-width: 0px;
+  background-color: #f8fafc;
+  border-left: 1px solid #b6c3ca;
+  margin-left: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 22px;
+  width: 100%;
+  font-size: 10px;
+  outline: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.cart-2 {
+  background-color: #5763a5;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  min-height: 50vh;
+}
+.nav-heading-container {
+  display: flex;
+  align-items: center;
+}
+.label-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.label {
+  font-size: 10px;
+  color: #ffffff;
+}
+.checkbox:hover {
+  cursor: pointer;
+  outline: none;
+}
+.password-history-manager {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-password {
+  height: 100px;
+  width: 130px;
+}
+.para {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+}
+.password-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+@media screen and (min-width: 576px) {
+  .main-container {
+    padding: 50px;
+  }
+  .cart {
+    height: 35vh;
+  }
+  .app-logo {
+    margin-bottom: 20px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  .input-container {
+    width: 200px;
+  }
+  .password-manager {
+    height: 160px;
+    width: 150px;
+  }
+  .cart-2 {
+    min-height: 40vh;
+  }
+  .nav-heading {
+    font-size: 15px;
+    margin-right: 10px;
+  }
+  .input-search {
+    width: 150px;
+  }
+  .no-password {
+    height: 150px;
+    width: 180px;
+  }
+  .para {
+    font-size: 15px;
+  }
+  .btn {
+    font-size: 13px;
+  }
+  .password-list-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main-container {
+    padding: 50px;
+  }
+  .cart {
+    height: 40vh;
+  }
+  .app-logo {
+    width: 150px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+
+  .input-container {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  .password-manager {
+    height: 250px;
+    width: 230px;
+  }
+  .cart-2 {
+    min-height: 40vh;
+  }
+  .nav-heading {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  .input-search {
+    width: 180px;
+  }
+  .label {
+    font-size: 15px;
+  }
+  .checkbox {
+    zoom: 1.5;
+  }
+  .no-password {
+    height: 200px;
+    width: 230px;
+  }
+  .para {
+    font-size: 18px;
+  }
+  .btn {
+    width: 70px;
+    height: 30px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .main-container {
+    padding: 50px;
+  }
+  .cart {
+    height: 40vh;
+  }
+  .app-logo {
+    width: 200px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+  .input-container {
+    height: 50px;
+    width: 320px;
+    margin-bottom: 25px;
+  }
+  .input {
+    padding-left: 10px;
+    height: 50px;
+    font-size: 18px;
+  }
+  .input-logo {
+    height: 25px;
+    width: 25px;
+  }
+  .password-manager {
+    height: 350px;
+    width: 300px;
+  }
+  .cart-2 {
+    min-height: 40vh;
+  }
+  .nav-heading {
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  .count {
+    font-size: 12px;
+    height: 20px;
+    width: 25px;
+  }
+  .input-search {
+    width: 200px;
+    height: 30px;
+  }
+  .input-for-search {
+    height: 30px;
+    font-size: 12px;
+  }
+  .label {
+    font-size: 18px;
+  }
+  .checkbox {
+    zoom: 2;
+  }
+  .no-password {
+    height: 250px;
+    width: 280px;
+  }
+  .para {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main-container {
+    min-height: 100vh;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .cart {
+    height: 40vh;
+  }
+  .app-logo {
+    width: 200px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+  .input-container {
+    height: 50px;
+    width: 350px;
+    margin-bottom: 25px;
+  }
+  .input {
+    padding-left: 10px;
+    height: 50px;
+    font-size: 18px;
+  }
+  .input-logo {
+    height: 25px;
+    width: 25px;
+  }
+  .password-manager {
+    max-height: 280px;
+    max-width: 300px;
+  }
+  .cart-2 {
+    min-height: 40vh;
+  }
+  .nav-heading {
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  .count {
+    font-size: 12px;
+    height: 20px;
+    width: 25px;
+  }
+  .input-search {
+    width: 200px;
+    height: 30px;
+  }
+  .input-for-search {
+    height: 30px;
+    font-size: 12px;
+  }
+  .label {
+    font-size: 18px;
+  }
+  .checkbox {
+    zoom: 2;
+  }
+  .no-password {
+    height: 180px;
+    width: 280px;
+  }
+  .para {
+    font-size: 20px;
+  }
+  .btn {
+    width: 75px;
+    height: 32px;
+    font-size: 18px;
+  }
+}
